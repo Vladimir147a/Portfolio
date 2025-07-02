@@ -1,0 +1,119 @@
+/*---------------------------------------------ХЕДЕР----------------------------------------------------*/
+header
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: red;*/
+    z-index: 1;
+}
+.header
+{
+    margin: 2rem 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    gap: 5rem;
+}
+.menu_item
+{
+    font-size: 1.5rem;
+    color: var(--font-color);
+
+}
+.menu_btn
+{
+    background: rgb(128, 128, 128, 0.4);
+    border-radius: 5rem;
+}
+
+/*----------------------------MAIN*----------------------------------------*/
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    color: var(--font-color);
+
+}
+
+.main
+{
+    position: absolute;
+    width: 80vh;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_text_item
+{
+    width: 600px;
+
+}
+.title
+{
+    font-size: 150px;
+    font-weight: bold;
+    color: var(--font-color);
+    letter-spacing: 2px;
+    font-family: Benzin;
+}
+
+
+
+
+
+
+
+
+.main_btn
+{
+    width: 500px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu_btn, .sub_btn_text
+{
+    width: 220px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.menu_btn
+{justify-content: center}
+
+.line
+{
+    width: 1px;
+    height: 2.5rem;
+    background: lightgrey;
+}
+
+.menu_btn p, .sub_btn_text p
+{
+    margin: 0;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--font-color);
+}
+
+/*-----------------------------FOOTER---------------------------------*/
+
