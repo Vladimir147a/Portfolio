@@ -1,7 +1,6 @@
 :root {
-  --font-color: rgb(250,250,250);
-  --secondary-font: 'Georgia', serif;
-  --code-font: 'Courier New', monospace;
+    --font-color: rgb(250,250,250);
+    --bg-color: rgb(250,250,250,0.1);
 
   /* Дополнительно: размеры шрифтов */
   --font-size-sm: 14px;
