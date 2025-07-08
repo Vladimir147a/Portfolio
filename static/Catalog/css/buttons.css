@@ -1,0 +1,50 @@
+.btn_menu, .btn_menu_more
+{
+    padding: 1rem 2rem;
+    color: rgb(250, 250, 250);
+}
+
+.btn_menu_more
+{
+    border-left: 2px solid rgb(128, 128, 128, 0.3);
+}
+
+.play
+{
+    border: 2px solid black;
+    border-radius: 5rem;
+    width: 50px;
+    height: 50px;
+}
+.list_btn
+{
+   border: 2px solid black;
+    border-radius: 5rem;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.sub_btn
+{
+    color: white;
+    background: rgb(250,250,250,0.3);
+    border-radius: 5rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid lightgrey;
+}
+.feedback_btn
+{
+    border: 2px solid white;
+    color: var(--font-color);
+    background: var(--bg-color);
+    padding: 1rem 1.5rem;
+    border-radius: 5rem;
+    text-align: left;
+
+}
+.feedback_btn:hover {
+    background: white;
+    transition: 0.5s;
+
+}

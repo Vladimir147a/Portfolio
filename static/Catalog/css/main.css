@@ -1,0 +1,198 @@
+/*---------------------------------------------ХЕДЕР----------------------------------------------------*/
+header
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+    z-index: 1000;
+}
+.header
+{
+    margin: 2rem 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.menu
+{
+    display: flex;
+    gap: 5rem;
+}
+.menu_item
+{
+    font-size: 1.5rem;
+    color: var(--font-color);
+
+}
+.menu_btn
+{
+    background: rgb(128, 128, 128, 0.4);
+    border-radius: 5rem;
+}
+
+/*----------------------------MAIN*----------------------------------------*/
+
+    .item_image {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        position: absolute;
+        top: 0;
+
+        right: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .item_image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 10s linear;
+        transform: scale(1);
+    }
+
+    .item_image img.active {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    .item_image img:hover {
+        transform: scale(1.15);
+    }
+
+
+.container-main
+{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+
+    top: 0;
+    color: var(--font-color);
+
+}
+
+.main
+{
+    position: absolute;
+    width: 90vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main_text_item
+{
+    width: 600px;
+
+
+}
+.title
+{
+    font-size: 150px;
+    font-weight: bold;
+    color: var(--font-color);
+    letter-spacing: 2px;
+    font-family: Benzin;
+    margin-bottom:5rem ;
+}
+
+.main_btn
+{
+    width: 500px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu_btn, .sub_btn_text
+{
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.menu_btn
+{justify-content: center}
+
+.line
+{
+    width: 1px;
+    height: 2.5rem;
+    background: lightgrey;
+}
+
+.menu_btn p, .sub_btn_text p
+{
+    margin: 0;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--font-color);
+}
+
+.logo_test
+{
+    width:1000px;
+
+}
+
+.slogan
+{
+    width:1000px;
+    color: rgba(16, 15, 15, 0.92);
+    font-size: 2rem;
+    font-weight: inherit;
+    line-break: auto;
+    font-style: italic;
+}
+
+/*-----------------------------FOOTER---------------------------------*/
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+}
+.footer
+{
+    margin: 3rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item_footer
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+.item_footer p
+{
+    color: var(--font-color);
+}
+
+.social_icon
+{
+    width: 5rem;
+}

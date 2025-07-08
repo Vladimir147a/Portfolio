@@ -1,0 +1,41 @@
+.modal {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Затемненный фон */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+.modal-content {
+  animation: modalopen 1s;
+}
+
+@keyframes modalopen {
+  from {opacity: 0; transform: translateY(1000px);}
+  to {opacity: 1; transform: translateY(0);}
+}
