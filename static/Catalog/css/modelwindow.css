@@ -14,6 +14,8 @@
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
+  display: flex;
+  justify-content: flex-end;
   width: 80%;
   max-width: 500px;
   position: relative;
@@ -38,4 +40,38 @@
 @keyframes modalopen {
   from {opacity: 0; transform: translateY(1000px);}
   to {opacity: 1; transform: translateY(0);}
+}
+
+
+.forms
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end  ;
+
+}
+
+.form_item
+{
+  width: 100%;
+}
+.form_item p
+{font-size: 1rem;}
+.form_reg
+{
+  width: 100%;
+border-radius: 0%;
+border: none;
+border-bottom: 1px solid gray;
+height: 30px;
+margin-top: 2rem;
+}
+
+.form_reg:focus,
+.form_reg:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid gray;
 }

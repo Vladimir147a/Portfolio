@@ -40,6 +40,13 @@ INSTALLED_APPS = [
     'Catalog',
 ]
 
+
+# Для работы сообщений
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+# Для кастомных валидаторов
+EMAIL_VALIDATION_DOMAINS = ['gmail.com', 'yandex.ru', 'mail.ru']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

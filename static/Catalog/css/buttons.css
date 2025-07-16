@@ -48,3 +48,13 @@
     transition: 0.5s;
 
 }
+.btn_send
+{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 2rem 4rem;
+    width: 30rem;
+}

@@ -5,4 +5,5 @@ from django.contrib.auth.decorators import login_required
 urlpatterns = [
     path('', views.main, name='index'),
     path('resume/', views.resume, name='resume'),
+
 ]
